@@ -6,7 +6,7 @@ from pywinauto import keyboard
 from robot.utils import asserts
 
 
-class PyWinAutoLib:
+class BaseTest:
     def _init_(self):
         self.app = None
         self.dlg = None
